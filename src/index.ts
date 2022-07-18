@@ -24,7 +24,6 @@ function requiredServicesPresent(services: ServiceType[], selectedService: Servi
     return true;
 }
 
-//TODO Make it reducer like - no side effects, no mutations of old state
 export const updateSelectedServices = (
     previouslySelectedServices: ServiceType[],
     action: { type: "Select" | "Deselect"; service: ServiceType }

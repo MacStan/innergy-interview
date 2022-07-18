@@ -10,6 +10,3 @@ Using same scheme (espiecially having different set of rules for every year) wit
 Using `number` for currency operations is not optimal, problems with rounding of floating point numbers can be dangerous when working with money.
 Optimally either a specific library, or at least `bigint` should be used. 
 That would require changing significant portion of unit tests and the solution would remain essentialy the same (besides chaging every number to `bigint`), so I refrained from doing so.
-
-### TODO 
-[x] Check for corner cases with properties not existing on objects

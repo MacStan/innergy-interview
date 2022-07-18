@@ -35,8 +35,7 @@ function weddingSessionWithPhotographyOrVideoRecordingDiscount(services: Service
         : 0;
 }
 
-// Wedding session goes to 0 when photography present or to 300 when video present without photography. Available only in 2022
-// wedding session is free if the client chooses Photography during the wedding in 2022,
+// In 2022 Wedding session is free if the client chooses Photography, or costs 300 with VideoRecording
 function freeOrDiscountedWeddingSessionDiscount(services: ServiceType[], weddingSessionPrice: number, discountSize: number): number {
     if( services.includes("WeddingSession")){
         return services.includes("Photography") 
