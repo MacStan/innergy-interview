@@ -1,6 +1,6 @@
 import { DISCOUNTS as DISCOUNTS } from "./discounts";
 import { PRICES } from './prices';
-import { SERVICES_REQUIRED_ON_SELECT, SERVICES_TO_DESELECT } from './required.services';
+import { SERVICES_REQUIRED_ON_SELECT, SERVICES_TO_DESELECT } from './services-helpers';
 
 export type ServiceYear = 2020 | 2021 | 2022;
 export type ServiceType = "Photography" | "VideoRecording" | "BlurayPackage" | "TwoDayEvent" | "WeddingSession";
