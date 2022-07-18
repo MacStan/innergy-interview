@@ -42,5 +42,6 @@ function freeOrDiscountedWeddingSessionDiscount(services: ServiceType[], wedding
             ? weddingSessionPrice
             : (services.includes("VideoRecording") ? weddingSessionPrice - discountSize : 0);
     }
+    
     return 0;
 }

@@ -62,6 +62,5 @@ export const calculatePrice = (selectedServices: ServiceType[], selectedYear: Se
         });
     }
 
-
     return ({ basePrice: price, finalPrice: price - discount });
 }
